@@ -5,6 +5,8 @@ import colors from 'tailwindcss/colors'
 // const { parseColor } = require("tailwindcss/lib/util/color");
 import { parseColor } from 'tailwindcss/lib/util/color'
 
+import formPlugin from '@tailwindcss/forms'
+
 /** Converts HEX color to RGB */
 const toRGB = (value) => {
   return parseColor(value).color.join(" ");
@@ -12,6 +14,7 @@ const toRGB = (value) => {
 
 // const withMT = require('@material-tailwind/react/utils/withMT')
 import withMT from '@material-tailwind/react/utils/withMT'
+
 /** @type {import('tailwindcss').Config} */
 export default withMT({
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
@@ -405,7 +408,7 @@ export default withMT({
     }
   },
   plugins: [
-    require("@tailwindcss/forms"),
+    formPlugin,
     plugin(function ({ addBase, matchUtilities }) {
       addBase({
         // Default colors
