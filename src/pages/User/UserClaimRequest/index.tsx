@@ -25,7 +25,7 @@ import insuranceContractApi from 'src/apis/insuranceContract.api'
 import { ContractType } from 'src/types/insuranceContract.type'
 import bankingLogo from 'src/assets/Images/icon/banking.png'
 import cashLogo from 'src/assets/Images/icon/cash.png'
-// import facebookIcon10 from 'src/assets/Images/icon/facbook_icon_10.png'
+import facebookIcon10 from 'src/assets/images/icon/facbook_icon_10.png'
 import pdfLogo from 'src/assets/images/icon/pdf.png'
 import docxLogo from 'src/assets/images/icon/docx.png'
 import { useFormik } from 'formik'
@@ -611,10 +611,10 @@ function Main() {
                         <div className='w-[550px] h-[183px] absolute cursor-pointer flex flex-col justify-center items-center gap-1 bg-[#f7f8fa] rounded-lg group-hover:bg-[#eaebed]'>
                           {/* icon và chữ */}
                           <div className='p-[10px] rounded-full bg-[#e4e6eb] group-hover:bg-[#d8dadf]'>
-                            {/* <div
+                            <div
                               className='bg-[length:38px_122px] bg-[0px_-64px] h-5 w-5'
                               style={{ backgroundImage: `url(${facebookIcon10})` }}
-                            ></div> */}
+                            ></div>
                           </div>
                           <span className='text-[#050505] text-[17px] leading-5 font-normal'>
                             Thêm tài liệu PDF/DOC
