@@ -364,7 +364,7 @@ export const InsuranceService = () => {
         </div>
         <div className='h-[72px] flex justify-between items-center w-full bg-[#FBE2CC] px-3'>
           <div className='flex items-center gap-2'>
-            <img src='src/assets/Images/icon/policy.png' className='w-10 h-10' />
+            <img src='src/assets/images/icon/policy.png' className='w-10 h-10' />
             <a
               href='src/assets/pdf/policy.pdf'
               download='Quy tắc và điều khoản.pdf'
@@ -374,7 +374,7 @@ export const InsuranceService = () => {
             </a>
           </div>
           <div className='flex items-center gap-2'>
-            <img src='src/assets/Images/icon/info.png' className='w-8 h-10' />
+            <img src='src/assets/images/icon/info.png' className='w-8 h-10' />
             <a
               href='src/assets/pdf/info.pdf'
               download='Thông tin sản phẩm.pdf'

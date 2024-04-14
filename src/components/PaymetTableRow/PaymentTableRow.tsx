@@ -9,13 +9,13 @@ import { faAddressCard, faVenusMars } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { PaymentType } from 'src/types/payment.type'
 
-import masterCardLogo from 'src/assets/Images/icon/master-card.png'
-import visaLogo from 'src/assets/Images/icon/visa_card.png'
-import paypalLogo from 'src/assets/Images/icon/paypal.png'
-import momoLogo from 'src/assets/Images/icon/momo.png'
-import vnpayLogo from 'src/assets/Images/icon/vnpay.png'
-import bankingLogo from 'src/assets/Images/icon/banking.png'
-import cashLogo from 'src/assets/Images/icon/cash.png'
+import masterCardLogo from 'src/assets/images/icon/master-card.png'
+import visaLogo from 'src/assets/images/icon/visa_card.png'
+import paypalLogo from 'src/assets/images/icon/paypal.png'
+import momoLogo from 'src/assets/images/icon/momo.png'
+import vnpayLogo from 'src/assets/images/icon/vnpay.png'
+import bankingLogo from 'src/assets/images/icon/banking.png'
+import cashLogo from 'src/assets/images/icon/cash.png'
 
 interface Props {
   userPayment: PaymentType

@@ -2,7 +2,7 @@ import Login from 'src/components/Login'
 import Register from 'src/components/Register'
 import { Card } from '@material-tailwind/react'
 
-import loginBackground from 'src/assets/Images/Login_background.png'
+import loginBackground from 'src/assets/images/Login_background.png'
 import { useState } from 'react'
 
 const Auth = () => {

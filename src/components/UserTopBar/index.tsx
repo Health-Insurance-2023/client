@@ -1,7 +1,7 @@
 import { useState, Fragment } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import Lucide from 'src/components/Lucide'
-import logoUrl from 'src/assets/Images/icon/icon-02-light.png'
+import logoUrl from 'src/assets/images/icon/icon-02-light.png'
 import fakerData from '../../utils/faker'
 import * as _ from 'lodash'
 import { Transition } from '@headlessui/react'

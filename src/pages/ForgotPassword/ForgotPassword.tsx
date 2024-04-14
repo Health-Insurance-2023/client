@@ -1,6 +1,6 @@
 import { Button, Card, CardBody, CardFooter, CardHeader, Input, Typography } from '@material-tailwind/react'
 
-import loginBackground from 'src/assets/Images/Login_background.png'
+import loginBackground from 'src/assets/images/Login_background.png'
 import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import routes from 'src/constants/routes'

@@ -9,11 +9,11 @@ const HomeFooter = () => {
         <div className='flex flex-wrap'>
           <div className='lg:w-1/4 md:w-1/2 pr-4 pl-4'>
             <h1 className='text-white mb-4 flex items-center'>
-              <img className='max-w-full h-auto me-3' src='src/assets/Images/icon/icon-02-light.png' alt='' />
+              <img className='max-w-full h-auto me-3' src='src/assets/images/icon/icon-02-light.png' alt='' />
               <span className='text-[40px] text-white font-[Poppins,sans-serif] leading-[48px] font-bold'>Insure</span>
             </h1>
             <p className='font-[Roboto] text-[17px] text-[#a7a8b4]'>
-            Chúng tôi luôn mang đến sự an toàn cho sức khỏe và tài chính của bạn.{' '}
+              Chúng tôi luôn mang đến sự an toàn cho sức khỏe và tài chính của bạn.{' '}
             </p>
             <div className='flex pt-2 mt-4'>
               <button className='flex justify-center items-center border border-[#A7A8B4] w-[38px] h-[38px] transition duration-[300ms] rounded-[10px] py-1 px-3 bg-transparent hover:bg-[#015fc9] m-1 ml-0 group'>
@@ -70,7 +70,9 @@ const HomeFooter = () => {
           </div>
           <div className='lg:w-1/4 md:w-1/2 pr-4 pl-4 '>
             <h5 className='text-[20px] text-white font-[Poppins,sans-serif] mb-5 font-bold'>Liên hệ</h5>
-            <p className='font-[Roboto] text-[17px] text-[#a7a8b4]'>Vui lòng cung cấp email của bạn để chúng tôi có thể hỗ trợ.</p>
+            <p className='font-[Roboto] text-[17px] text-[#a7a8b4]'>
+              Vui lòng cung cấp email của bạn để chúng tôi có thể hỗ trợ.
+            </p>
             <div className='relative mx-auto mt-3' style={{ maxWidth: '400px' }}>
               <input
                 className='focus:ring-4 rounded-[10px] px-2 mb-1 text-base bg-transparent text-white border border-gray-200 w-[300px] py-4 ps-4 pe-5'
