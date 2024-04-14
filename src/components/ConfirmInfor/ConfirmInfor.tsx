@@ -148,7 +148,7 @@ export const ConfirmInfor = (props: Props) => {
             <Card className=' w-full shadow-md'>
               <CardBody className='flex items-center gap-2'>
                 <div className='flex items-center gap-3'>
-                  <img src='/src/assets/Images/icon/icon-02-primary.png' alt='logo' width='32' height='32' />
+                  <img src='/src/assets/images/icon/icon-02-primary.png' alt='logo' width='32' height='32' />
                   <div className='font-bold'>CÔNG TY INSURE LIFE VIỆT NAM</div>
                 </div>
               </CardBody>
