@@ -5,7 +5,7 @@ import { selectSideMenu } from 'src/redux/sideMenuSlice'
 import { useAppSelector } from 'src/redux/hooks'
 import { FormattedMenu, linkTo, nestedMenu, enter, leave } from 'src/utils/side-menu'
 
-import logoUrl from 'src/assets/Images/icon/icon-02-light.png'
+import logoUrl from 'src/assets/images/icon/icon-02-light.png'
 import clsx from 'clsx'
 import TopBar from 'src/components/TopBar'
 import MobileMenu from 'src/components/MobileMenu'
