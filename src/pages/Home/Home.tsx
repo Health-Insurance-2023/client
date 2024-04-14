@@ -7,6 +7,17 @@ import FloatingInput from 'src/components/FloatingInput'
 import WOW from 'wow.js'
 import 'animate.css' // Import các hiệu ứng CSS từ animate.css
 import carousel1 from 'src/assets/images/carousel-1.jpg'
+import carousel2 from 'src/assets/images/carousel-2.jpg'
+import about from 'src/assets/images/about.jpg'
+import icon4 from 'src/assets/images/icon/icon-04-primary.png'
+import icon3 from 'src/assets/images/icon/icon-03-primary.png'
+import profileImg from 'src/assets/images/profile.jpg'
+import icon6 from 'src/assets/images/icon/icon-06-primary.png'
+import icon7 from 'src/assets/images/icon/icon-07-primary.png'
+import featureImg from 'src/assets/images/feature.jpg'
+import test1 from 'src/assets/images/testimonial-1.jpg'
+import test2 from 'src/assets/images/testimonial-2.jpg'
+import test3 from 'src/assets/images/testimonial-3.jpg'
 
 const teamMemberList: { url: string; name: string }[] = [
   {
@@ -169,7 +180,7 @@ const Home = () => {
         </div>
 
         <div className='relative'>
-          <img className='w-full' src='src/assets/images/carousel-2.jpg' alt='Image' />
+          <img className='w-full' src={carousel2} alt='Image' />
           <div className=' absolute top-0 left-0 flex items-center w-full h-full'>
             <div className='mx-20 sm:px-4'>
               <div className='flex flex-wrap '>
@@ -199,7 +210,7 @@ const Home = () => {
               <div className='relative overflow-hidden rounded-[10px] ps-5 pt-5 h-full' style={{ minHeight: '400px' }}>
                 <img
                   className='absolute w-full h-full rounded-[10px] pl-10 pt-10'
-                  src='src/assets/images/about.jpg'
+                  src={about}
                   alt=''
                   style={{ objectFit: 'cover' }}
                 />
@@ -227,13 +238,13 @@ const Home = () => {
                 <div className='flex flex-wrap mb-4'>
                   <div className='sm:w-1/2 pr-4 pl-4'>
                     <div className='flex items-center'>
-                      <img className='flex-shrink-0 me-3' src='src/assets/images/icon/icon-04-primary.png' alt='' />
+                      <img className='flex-shrink-0 me-3' src={icon4} alt='' />
                       <h5 className=' font-[Poppins,sans-serif] font-bold'>Gói bảo hiểm linh hoạt</h5>
                     </div>
                   </div>
                   <div className='sm:w-1/2 pr-4 pl-4'>
                     <div className='flex items-center'>
-                      <img className='flex-shrink-0 me-3' src='src/assets/images/icon/icon-03-primary.png' alt='' />
+                      <img className='flex-shrink-0 me-3' src={icon3} alt='' />
                       <h5 className='font-[Poppins,sans-serif] font-bold'>Cam kết hoàn lại tiền</h5>
                     </div>
                   </div>
@@ -244,7 +255,7 @@ const Home = () => {
                 </p>
                 <div className='border-t border-gray-400 mt-4 pt-4'>
                   <div className='flex items-center'>
-                    <img className='flex-shrink-0 rounded-full me-3' src='src/assets/images/profile.jpg' alt='' />
+                    <img className='flex-shrink-0 rounded-full me-3' src={profileImg} alt='' />
                     <h5 className='font-[Poppins,sans-serif] font-bold'>Liên hệ: +012 345 6789</h5>
                   </div>
                 </div>
@@ -345,7 +356,7 @@ const Home = () => {
                   <div className='wow animate__animated animate__fadeIn flex-1' data-wow-delay='0.1s'>
                     <div className='bg-gray-200/70 rounded-[14px] h-full p-4'>
                       <div className='bg-white flex flex-col justify-center text-center rounded-[10px] h-full py-4 px-3'>
-                        <img className='self-center mb-3' src='src/assets/images/icon/icon-06-primary.png' alt='' />
+                        <img className='self-center mb-3' src={icon6} alt='' />
                         <h5 className='mb-0 font-[Poppins,sans-serif] font-bold'>Quy trình đơn giản</h5>
                       </div>
                     </div>
@@ -353,7 +364,7 @@ const Home = () => {
                   <div className='wow animate__animated animate__fadeIn flex-1' data-wow-delay='0.2s'>
                     <div className='bg-gray-200/70 rounded-[14px] h-ful p-4'>
                       <div className='bg-white flex flex-col justify-center text-center rounded-[10px] h-full py-4 px-3'>
-                        <img className='self-center mb-3' src='src/assets/images/icon/icon-03-primary.png' alt='' />
+                        <img className='self-center mb-3' src={icon3} alt='' />
                         <h5 className='mb-0 font-[Poppins,sans-serif] font-bold'>Thời gian chờ ngắn</h5>
                       </div>
                     </div>
@@ -363,7 +374,7 @@ const Home = () => {
                   <div className='wow animate__animated animate__fadeIn flex-1' data-wow-delay='0.3s'>
                     <div className='bg-gray-200/70 rounded-[14px] h-full p-4'>
                       <div className='bg-white flex flex-col justify-center text-center rounded-[10px] h-full py-4 px-3'>
-                        <img className='self-center mb-3' src='src/assets/images/icon/icon-04-primary.png' alt='' />
+                        <img className='self-center mb-3' src={icon4} alt='' />
                         <h5 className='mb-0 font-[Poppins,sans-serif] font-bold'>Quản lý chính sách</h5>
                       </div>
                     </div>
@@ -371,7 +382,7 @@ const Home = () => {
                   <div className='wow animate__animated animate__fadeIn flex-1' data-wow-delay='0.4s'>
                     <div className='bg-gray-200/70 rounded-[14px] h-full p-4'>
                       <div className='bg-white flex flex-col justify-center text-center rounded-[10px] h-full py-4 px-3'>
-                        <img className='self-center mb-3' src='src/assets/images/icon/icon-07-primary.png' alt='' />
+                        <img className='self-center mb-3' src={icon7} alt='' />
                         <h5 className='mb-0 font-[Poppins,sans-serif] font-bold'>Tiết kiệm chi phí</h5>
                       </div>
                     </div>
@@ -381,12 +392,7 @@ const Home = () => {
             </div>
             <div className='lg:w-1/2 pr-4 pl-4 wow animate__animated animate__fadeInUp' data-wow-delay='0.5s'>
               <div className='relative rounded overflow-hidden h-full' style={{ minHeight: '400px' }}>
-                <img
-                  className='absolute w-full h-full'
-                  src='src/assets/images/feature.jpg'
-                  alt=''
-                  style={{ objectFit: 'cover' }}
-                />
+                <img className='absolute w-full h-full' src={featureImg} alt='' style={{ objectFit: 'cover' }} />
               </div>
             </div>
           </div>
@@ -473,7 +479,7 @@ const Home = () => {
                 </p>
                 <div className='bg-white rounded-[10px] p-4 mt-12'>
                   <div className='flex items-center bg-[#015fc9] rounded-[10px] p-4'>
-                    <img className='flex-shrink-0 rounded-full me-3' src='src/assets/images/profile.jpg' alt='' />
+                    <img className='flex-shrink-0 rounded-full me-3' src={profileImg} alt='' />
                     <h5 className='text-white font-[Poppins,sans-serif] font-bold'>Liên hệ: +012 345 6789</h5>
                   </div>
                 </div>
@@ -570,17 +576,17 @@ const Home = () => {
               <div className='testimonial-left h-full'>
                 <img
                   className='max-w-full h-auto animate__animated animate__pulse animate__infinite animate__slow'
-                  src='src/assets/images/testimonial-1.jpg'
+                  src={test1}
                   alt=''
                 />
                 <img
                   className='max-w-full h-auto animate__animated animate__pulse animate__infinite animate__slow'
-                  src='src/assets/images/testimonial-2.jpg'
+                  src={test2}
                   alt=''
                 />
                 <img
                   className='max-w-full h-auto animate__animated animate__pulse animate__infinite animate__slow'
-                  src='src/assets/images/testimonial-3.jpg'
+                  src={test3}
                   alt=''
                 />
               </div>
@@ -613,11 +619,7 @@ const Home = () => {
                 )}
               >
                 <div className='text-center'>
-                  <img
-                    className='max-w-full h-auto rounded mx-auto mb-4'
-                    src='src/assets/images/testimonial-1.jpg'
-                    alt=''
-                  />
+                  <img className='max-w-full h-auto rounded mx-auto mb-4' src={test1} alt='' />
                   <p className='text-[20px] text-[#696e77] font-[Poppins,sans-serif]'>
                     Insure luôn đóng góp tích cực trong các hoạt động hướng đến việc phát triển bền vững cho cộng đồng.
                   </p>
@@ -627,11 +629,7 @@ const Home = () => {
                   <span className='text-[#696e77]'>Nghề nghiệp</span>
                 </div>
                 <div className='text-center'>
-                  <img
-                    className='max-w-full h-auto rounded mx-auto mb-4'
-                    src='src/assets/images/testimonial-2.jpg'
-                    alt=''
-                  />
+                  <img className='max-w-full h-auto rounded mx-auto mb-4' src={test2} alt='' />
                   <p className='text-[20px] text-[#696e77] font-[Poppins,sans-serif]'>
                     Insure luôn đóng góp tích cực trong các hoạt động hướng đến việc phát triển bền vững cho cộng đồng.
                   </p>
@@ -641,11 +639,7 @@ const Home = () => {
                   <span className='text-[#696e77]'>Nghề nghiệp</span>
                 </div>
                 <div className='text-center'>
-                  <img
-                    className='max-w-full h-auto rounded mx-auto mb-4'
-                    src='src/assets/images/testimonial-3.jpg'
-                    alt=''
-                  />
+                  <img className='max-w-full h-auto rounded mx-auto mb-4' src={test3} alt='' />
                   <p className='text-[20px] text-[#696e77] font-[Poppins,sans-serif]'>
                     Insure luôn đóng góp tích cực trong các hoạt động hướng đến việc phát triển bền vững cho cộng đồng.
                   </p>
@@ -660,17 +654,17 @@ const Home = () => {
               <div className='testimonial-right h-full'>
                 <img
                   className='max-w-full h-auto animate__animated animate__pulse animate__infinite animate__slow'
-                  src='src/assets/images/testimonial-1.jpg'
+                  src={test1}
                   alt=''
                 />
                 <img
                   className='max-w-full h-auto animate__animated animate__pulse animate__infinite animate__slow'
-                  src='src/assets/images/testimonial-2.jpg'
+                  src={test2}
                   alt=''
                 />
                 <img
                   className='max-w-full h-auto animate__animated animate__pulse animate__infinite animate__slow'
-                  src='src/assets/images/testimonial-3.jpg'
+                  src={test3}
                   alt=''
                 />
               </div>
