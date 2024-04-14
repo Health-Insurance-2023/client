@@ -13,7 +13,7 @@ import { InsurancePlan } from 'src/types/insurancePlan.type'
 import { calAge } from 'src/utils/utils'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
-import serviceBanner from 'src/assets/images/service-banner.png'
+import serviceBanner from 'src/assets/images/insurance_service_banner.png'
 import policyIcon from 'src/assets/images/icon/policy.png'
 import policyPdf from 'src/assets/pdf/policy.pdf'
 import infoIcon from 'src/assets/images/icon/info.png'
