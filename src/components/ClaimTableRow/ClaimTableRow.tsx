@@ -408,7 +408,7 @@ const ClaimTableRow = ({ userClaim, approveClaim, refuseClaim, isAdmin, status, 
                       <div className=' group/all'>
                         <div className='grid grid-cols-12 mt-3 border-2 rounded-md pt-3 bg-[#f7f8fa]'>
                           {userClaim.documents.map((file, index) => (
-                            <a href={file.url} target='_blank' className='col-span-3'>
+                            <a href={file.url} key={index} target='_blank' className='col-span-3'>
                               <Tooltip key={index} content={file.name} placement='bottom' className='z-[99999]'>
                                 <div className='flex flex-col items-center  mb-3 group text-center'>
                                   <img
