@@ -6,6 +6,7 @@ import { useEffect, useState } from 'react'
 import FloatingInput from 'src/components/FloatingInput'
 import WOW from 'wow.js'
 import 'animate.css' // Import các hiệu ứng CSS từ animate.css
+import carousel1 from 'src/assets/images/carousel-1.jpg'
 
 const teamMemberList: { url: string; name: string }[] = [
   {
@@ -147,7 +148,7 @@ const Home = () => {
         )}
       >
         <div className='relative'>
-          <img className='w-full' src='src/assets/images/carousel-1.jpg' alt='Image' />
+          <img className='w-full' src={carousel1} alt='Image' />
           <div className='absolute top-0 left-0 flex items-center w-full h-full'>
             <div className='mx-20 sm:px-4'>
               <div className='flex flex-wrap '>
