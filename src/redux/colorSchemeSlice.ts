@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
-import { RootStateToolkit } from './store'
+import { RootState } from './store'
 
 const colorSchemes = ['default', 'theme-1', 'theme-2', 'theme-3', 'theme-4'] as const
 
@@ -32,7 +32,7 @@ export const colorSchemeSlice = createSlice({
 
 export const { setColorScheme } = colorSchemeSlice.actions
 
-export const selectColorScheme = (state: RootStateToolkit) => {
+export const selectColorScheme = (state: RootState) => {
   if (localStorage.getItem('colorScheme') === null) {
     localStorage.setItem('colorScheme', 'default')
   }
