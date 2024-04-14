@@ -2,6 +2,12 @@ import { Accordion, AccordionHeader, AccordionBody } from '@material-tailwind/re
 import 'animate.css'
 import { Fragment, useEffect, useState } from 'react'
 import WOW from 'wow.js'
+import calenderIcon from 'src/assets/images/icon/calender_icon.svg'
+import linhHoatIcon from 'src/assets/images/icon/linh_hoat.svg'
+import baoMatIcon from 'src/assets/images/icon/bao_mat.svg'
+import supportBanner from 'src/assets/images/support_banner.png'
+import emailIcon from 'src/assets/images/icon/email.svg'
+import phoneIcon from 'src/assets/images/icon/phone.svg'
 
 type AccordionCardType = {
   title: string
@@ -181,7 +187,7 @@ const Support = () => {
           <div className='flex justify-start w-full'>
             <img
               className='mb-4 w-70 h-70 animate__animated bounce animate__slower animate__infinite'
-              src='src/assets/images/icon/calender_icon.svg'
+              src={calenderIcon}
             />
           </div>
           <p className='text-start'>
@@ -192,7 +198,7 @@ const Support = () => {
           <div className='flex justify-start w-full'>
             <img
               className='mb-4 w-70 h-70 animate__animated bounce animate__slower animate__infinite'
-              src='src/assets/images/icon/linh_hoat.svg'
+              src={linhHoatIcon}
             />
           </div>
           <p className='text-start'>
@@ -203,7 +209,7 @@ const Support = () => {
           <div className='flex justify-start w-full'>
             <img
               className='mb-4 w-70 h-70 animate__animated bounce animate__slower animate__infinite'
-              src='src/assets/images/icon/bao_mat.svg'
+              src={baoMatIcon}
             />
           </div>
           <p className='text-start'>
@@ -240,7 +246,7 @@ const Support = () => {
         >
           <div>
             <div className='float-right'>
-              <img className='rounded-[40%_80%_40%_60%]' src='src/assets/images/support_banner.png' />
+              <img className='rounded-[40%_80%_40%_60%]' src={supportBanner} />
             </div>
           </div>
         </div>
@@ -279,7 +285,7 @@ const Support = () => {
           <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-24'>
             <div>
               <div className='mb-4'>
-                <img src='src/assets/images/icon/email.svg' />
+                <img src={emailIcon} />
               </div>
               <p className='mb-4 text-xl font-bold'>Email liên hệ</p>
               <div>
@@ -299,7 +305,7 @@ const Support = () => {
             </div>
             <div>
               <div className='mb-4'>
-                <img src='src/assets/images/icon/phone.svg' />
+                <img src={phoneIcon} />
               </div>
               <p className='mb-4 text-xl font-bold'>Hotline</p>
               <div>

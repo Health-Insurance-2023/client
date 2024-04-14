@@ -1,6 +1,7 @@
 import { faFacebookF, faLinkedinIn, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { faAngleRight, faEnvelope, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import icon2l from 'src/assets/images/icon/icon-02-light.png'
 
 const HomeFooter = () => {
   return (
@@ -9,7 +10,7 @@ const HomeFooter = () => {
         <div className='flex flex-wrap'>
           <div className='lg:w-1/4 md:w-1/2 pr-4 pl-4'>
             <h1 className='text-white mb-4 flex items-center'>
-              <img className='max-w-full h-auto me-3' src='src/assets/images/icon/icon-02-light.png' alt='' />
+              <img className='max-w-full h-auto me-3' src={icon2l} alt='' />
               <span className='text-[40px] text-white font-[Poppins,sans-serif] leading-[48px] font-bold'>Insure</span>
             </h1>
             <p className='font-[Roboto] text-[17px] text-[#a7a8b4]'>

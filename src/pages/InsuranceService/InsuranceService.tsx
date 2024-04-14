@@ -13,6 +13,12 @@ import { InsurancePlan } from 'src/types/insurancePlan.type'
 import { calAge } from 'src/utils/utils'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
+import serviceBanner from 'src/assets/images/service-banner.png'
+import policyIcon from 'src/assets/images/icon/policy.png'
+import policyPdf from 'src/assets/pdf/policy.pdf'
+import infoIcon from 'src/assets/images/icon/info.png'
+import infoPdf from 'src/assets/pdf/info.pdf'
+
 interface AdditionalBenefitsInforProps {
   indexArray: number
 }
@@ -160,7 +166,7 @@ export const InsuranceService = () => {
       <div className='flex flex-col border-2 border-[#DDD2C0] justify-center items-center rounded-md '>
         {/* banner */}
         <div className='h-[242px] max-w-[1330px] flex bg-white rounded-t-md mt-[1px] border-b-4 border-[#DDD2C0]'>
-          <img className='w-[315px] h-[238px]' src='src/assets/images/insurance_service_banner.png' />
+          <img className='w-[315px] h-[238px]' src={serviceBanner} />
           <div className='row-span-2 flex-col justify-center mx-10 my-4 md:mx-0 md:p-4 md:pr-5 md:flex lg:m-6'>
             <p className='text-[#d60007] block leading-none mb-2 text-2xl font-bold lg:font-normal md:font-normal text-c1-500 hover:underline md:text-2xl'>
               Bảo hiểm sức khỏe toàn diện
@@ -364,9 +370,9 @@ export const InsuranceService = () => {
         </div>
         <div className='h-[72px] flex justify-between items-center w-full bg-[#FBE2CC] px-3'>
           <div className='flex items-center gap-2'>
-            <img src='src/assets/images/icon/policy.png' className='w-10 h-10' />
+            <img src={policyIcon} className='w-10 h-10' />
             <a
-              href='src/assets/pdf/policy.pdf'
+              href={policyPdf}
               download='Quy tắc và điều khoản.pdf'
               className='font-bold text-[#99542d] hover:underline'
             >
@@ -374,12 +380,8 @@ export const InsuranceService = () => {
             </a>
           </div>
           <div className='flex items-center gap-2'>
-            <img src='src/assets/images/icon/info.png' className='w-8 h-10' />
-            <a
-              href='src/assets/pdf/info.pdf'
-              download='Thông tin sản phẩm.pdf'
-              className='font-bold text-[#99542d] hover:underline'
-            >
+            <img src={infoIcon} className='w-8 h-10' />
+            <a href={infoPdf} download='Thông tin sản phẩm.pdf' className='font-bold text-[#99542d] hover:underline'>
               Thông tin sản phẩm
             </a>
           </div>
