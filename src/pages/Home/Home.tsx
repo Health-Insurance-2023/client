@@ -18,59 +18,69 @@ import featureImg from 'src/assets/images/feature.jpg'
 import test1 from 'src/assets/images/testimonial-1.jpg'
 import test2 from 'src/assets/images/testimonial-2.jpg'
 import test3 from 'src/assets/images/testimonial-3.jpg'
+import team1 from 'src/assets/images/team-1.jpg'
+import team2 from 'src/assets/images/team-2.jpg'
+import team3 from 'src/assets/images/team-3.jpg'
+import team4 from 'src/assets/images/team-4.jpg'
+import icon10 from 'src/assets/images/icon/icon-10-light.png'
+import icon1 from 'src/assets/images/icon/icon-01-light.png'
+import icon05l from 'src/assets/images/icon/icon-05-light.png'
+import icon08l from 'src/assets/images/icon/icon-08-light.png'
+import icon07l from 'src/assets/images/icon/icon-07-light.png'
+import icon06l from 'src/assets/images/icon/icon-06-light.png'
 
 const teamMemberList: { url: string; name: string }[] = [
   {
-    url: 'src/assets/images/team-1.jpg',
+    url: team1,
     name: 'Nguyen Van A'
   },
   {
-    url: 'src/assets/images/team-2.jpg',
+    url: team2,
     name: 'Nguyen Van B'
   },
   {
-    url: 'src/assets/images/team-3.jpg',
+    url: team3,
     name: 'Nguyen Van C'
   },
   {
-    url: 'src/assets/images/team-4.jpg',
+    url: team4,
     name: 'Nguyen Van D'
   }
 ]
 
 const serviceList: { url: string; name: string; description: string }[] = [
   {
-    url: 'src/assets/images/icon/icon-10-light.png',
+    url: icon10,
     name: 'Bảo hiểm cuộc sống',
     description:
       'Toàn thế giới ngoại trừ Hoa Kỳ: Bạn được bảo hiểm bất kỳ đâu ngoại trừ Mỹ. Các dịch vụ được thực hiện ở Mỹ được bảo hiểm lên tới 2.320.000 VNĐ trong thời hạn bảo hiểm'
   },
   {
-    url: 'src/assets/images/icon/icon-01-light.png',
+    url: icon1,
     name: 'Bảo hiểm sức khỏe',
     description:
       'Toàn thế giới ngoại trừ Hoa Kỳ: Bạn được bảo hiểm bất kỳ đâu ngoại trừ Mỹ. Các dịch vụ được thực hiện ở Mỹ được bảo hiểm lên tới 2.320.000 VNĐ trong thời hạn bảo hiểm'
   },
   {
-    url: 'src/assets/images/icon/icon-05-light.png',
+    url: icon05l,
     name: 'Bảo hiểm nhà ở',
     description:
       'Toàn thế giới ngoại trừ Hoa Kỳ: Bạn được bảo hiểm bất kỳ đâu ngoại trừ Mỹ. Các dịch vụ được thực hiện ở Mỹ được bảo hiểm lên tới 2.320.000 VNĐ trong thời hạn bảo hiểm'
   },
   {
-    url: 'src/assets/images/icon/icon-08-light.png',
+    url: icon08l,
     name: 'Bảo hiểm phương tiện',
     description:
       'Toàn thế giới ngoại trừ Hoa Kỳ: Bạn được bảo hiểm bất kỳ đâu ngoại trừ Mỹ. Các dịch vụ được thực hiện ở Mỹ được bảo hiểm lên tới 2.320.000 VNĐ trong thời hạn bảo hiểm'
   },
   {
-    url: 'src/assets/images/icon/icon-07-light.png',
+    url: icon07l,
     name: 'Bảo hiểm kinh doanh',
     description:
       'Toàn thế giới ngoại trừ Hoa Kỳ: Bạn được bảo hiểm bất kỳ đâu ngoại trừ Mỹ. Các dịch vụ được thực hiện ở Mỹ được bảo hiểm lên tới 2.320.000 VNĐ trong thời hạn bảo hiểm'
   },
   {
-    url: 'src/assets/images/icon/icon-06-light.png',
+    url: icon06l,
     name: 'Bảo hiểm tài sản',
     description:
       'Toàn thế giới ngoại trừ Hoa Kỳ: Bạn được bảo hiểm bất kỳ đâu ngoại trừ Mỹ. Các dịch vụ được thực hiện ở Mỹ được bảo hiểm lên tới 2.320.000 VNĐ trong thời hạn bảo hiểm'
